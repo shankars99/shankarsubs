@@ -1,36 +1,43 @@
 html,
 body {
-	height: 100%;
-	margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 .app {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	/* This indent can be adjusted */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* This indent can be adjusted */
 }
 
 .text-column {
-	padding-left: 400px;
-	/* text-align: center; */
-	/* max-width: 600px; */
-	/* Adjust as needed */
+  padding-left: 400px;
+  /* text-align: center; */
+  /* max-width: 600px; */
+  /* Adjust as needed */
 }
 
 main {
-	flex: 1;
-	/* This makes the main content area grow and take available space */
+  flex: 1;
+  /* This makes the main content area grow and take available space */
 }
 
 header {
-	background: #f1f1f1;
-	padding: 10px;
-	text-align: center;
+  background: #f1f1f1;
+  padding: 10px;
+  text-align: center;
 }
 
 footer {
-	background: #f1f1f1;
-	padding: 10px;
-	text-align: center;
+  background: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: -webkit-optimize-contrast;
 }
